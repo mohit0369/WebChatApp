@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap');
+.logo{
+   display: block;
+   margin: auto;
+   width: 350px;
+   height: 200px;
+}
+body {
+  height: 100vh;
+  background-color: rgb(
+    158,
+    160,
+    180
+  ); /* For browsers that do not support gradients */
+  background-image: radial-gradient(
+    rgb(214, 186, 214),
+    rgb(158, 160, 180),
+    rgb(151, 148, 169)
+  );
+  padding: 0px;
+  margin: 0px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+h1 {
+  margin-top: 12px;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(17, 130, 130);
+  max-width: 955px;
+  border: 2px solid black;
+  border-radius: 12px;
+  margin: auto;
+  height: 60vh;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+.send {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.message {
+  background-color: bisque;
+  width: 150px;
+  padding: 10px;
+  margin: 17px 12px;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+#send-container {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: large;
+  max-width: 350px;
+  width: 100%;
+}
+
+#messageInp {
+  display: none;
+  position: relative;
+  top: 5%;
+}
+.btn {
+    margin-top: 10px;
+    color: rgb(148, 249, 249);
+    background-color: rgb(56, 56, 239);
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius:6px;
+}
+
